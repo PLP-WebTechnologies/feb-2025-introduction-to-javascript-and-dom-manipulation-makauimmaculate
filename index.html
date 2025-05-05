@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Demo Site</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrapper">
+      <h1>My Demo Site</h1>
+    </div>
+  </header>
+
+  <main class="wrapper">
+
+    <!-- Home Section with DOM Demo -->
+    <section id="home" class="card">
+      <h2 id="demo-heading">Welcome!</h2>
+      <p id="demo-text">This is the Home section. Try the buttons below:</p>
+
+      <div class="btn-group">
+        <button id="change-text">Change Text</button>
+        <button id="change-style">Change Style</button>
+        <button id="add-item">Add Item</button>
+        <button id="remove-item">Remove Item</button>
+      </div>
+
+      <ul id="demo-list" class="demo-list">
+        <li>Item A</li>
+        <li>Item B</li>
+      </ul>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="card about-card">
+      <h2>About</h2>
+      <p>
+        This mini‐site demonstrates basic DOM manipulation using JavaScript:  
+        you can change text, toggle styles, and add/remove elements on the fly.
+      </p>
+    </section>
+
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
